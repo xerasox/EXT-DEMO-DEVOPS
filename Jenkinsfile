@@ -11,7 +11,7 @@ String HCI_Connection     = "cwcc:16196"
 String CES_Connection     = "cwcc:2020"       
 
 // Jenkins credential ID and CES Personal Access token to be used for mainframe access
-String Jenkins_Id        = "${Parm_ISPW_Owner}"                         // A username with password credential containing your CWC2 ID/PW
+String Jenkins_Id        = "c724dde9-7013-4a7d-a137-7c4b593bbb8e"        // A username with password credential containing your CWC2 ID/PW
 String Jenkins_CES       = "${Parm_ISPW_Owner}-CES"                     // A secret text credential containing your CES token for CWC2
 String CES_Token         = "02ba8cda-c206-4658-a8e1-aa30cee31ced" // Your CES token
 
@@ -25,22 +25,20 @@ String ISPW_ContainerType = "assignments"           // Valid values are assignme
 String ISPW_Stream        = "GITDEMO"               // ISPW Stream (Ex. CWEZ)
 String ISPW_Application   = "GIT1"                  // ISPW APplication (EX. TXXX)
 String ISPW_RuntimeConfig = ""                      // ISPW Runtime config (Ex. ISP8)
-String ISPW_Dev_Level     = Parm_ISPW_Dev_Level     // ISPW Dev Level (Ex. DEV1)
-String ISPW_QA_Level      = Parm_ISPW_QA_Level      // ISPW QA Level (Ex. QA1)
-String ISPW_Stg_Level     = Parm_ISPW_Stg_Level     // ISPW Stage Level (Ex. STG1)
+String ISPW_FT_Level      = Parm_ISPW_FT_Level      // ISPW Dev Level (Ex. DEV1)
 String ISPW_Prod_Level    = Parm_ISPW_Prd_Level     // ISPW Prod Level (Ex. PRD)
-String ISPW_Owner         = Parm_ISPW_Owner         // The user initiating the pipeline
+String ISPW_Owner         = "c724dde9-7013-4a7d-a137-7c4b593bbb8e"         // The user initiating the pipeline
 String ISPW_Release       = Parm_ISPW_Release       // The ISPW release ID used in XLR
 
 // Directory for tests that are downloaded to the jenkins workspace
-String TTT_Project        = "CWXTCOB_MKS1"  // The name of your TTT project
+String TTT_Project        = "Tests"  // The name of your TTT project
 
 // Total Test JCL and Scenario/Testsuite used in CI process
-String TTT_TestPackage    = "CWXTCOB_Scenario" // The filename name of your TTT Scenario
+String TTT_TestPackage    = "XEXTCOB_Scenario" // The filename name of your TTT Scenario
 String TTT_PackageType    = ".testscenario"    // The suffix of your TTT Scenario
 string TTT_PackageSonar   = "${TTT_Project}_${TTT_TestPackage}.sonar"  // The filename created by TTT for Sonar input   
 String TTT_Jcl            = "Runner.jcl"       // The name of the JCL file
-String CC_repository      = "PFHMKS0.XPCOVER.REPOSIT" // The DSN of your code coverage repository
+String CC_repository      = "MVSXYE.DEMOCI.COVERAGE" // The DSN of your code coverage repository
 
 // SonarQube ID used for both project key and project name
 String SQ_Project         = "PFHMKS0-Pipeline" // Your SonarQube project name
@@ -102,7 +100,7 @@ pipeline {
 
 parameters {
   string defaultValue: 'value', description: 'Assignment ContainerID', name: 'Parm_ISPW_Container'
-  string defaultValue: 'value', description: 'ISPW Dev Level (Ex. DEV1)', name: 'Parm_ISPW_Dev_Level'
+  string defaultValue: 'FT1', description: 'ISPW Dev Level (Ex. DEV1)', name: 'Parm_ISPW_FT_Level'
   string defaultValue: 'value', description: 'ISPW QA Level (Ex. QA1)', name: 'Parm_ISPW_QA_Level'
   string defaultValue: 'value', description: 'ISPW Stage Level (Ex. STG1)', name: 'Parm_ISPW_Stg_Level'
   string defaultValue: 'value', description: 'ISPW Prod Level (Ex. PRD)', name: 'Parm_ISPW_Prd_Level'
@@ -132,7 +130,7 @@ stage("Download Tests from Github")
     }
 }
 
-/* stage("Download Source from ISPW")
+stage("Download Source from ISPW")
 {
 
     steps{
@@ -145,12 +143,12 @@ stage("Download Tests from Github")
         levelOption: '0',                                       //0-selected level only 1-first found and above
         serverApplication: "${ISPW_Application}", 
         serverConfig: "${ISPW_RuntimeConfig}", 
-        serverLevel: "${ISPW_QA_Level}", 
+        serverLevel: "${ISPW_FT_Level}", 
         serverStream: "${ISPW_Stream}"])
     }
 
 } 
- 
+
 stage("Run Total Tests")
 {
     steps{
@@ -172,8 +170,21 @@ stage("Run Total Tests")
         // Process the Total Test result files into Jenkins
         junit keepLongStdio: true, testResults: 'TTTUnit/*.xml'
     }
+    /*
+    totaltest collectCCRepository: 'Repo', 
+    collectCCSystem: 'A', 
+    collectCCTestID: '1', 
+    collectCodeCoverage: true, 
+    connectionId: 'de2ad7c3-e924-4dc2-84d5-d0c3afd3e756', 
+    credentialsId: 'c724dde9-7013-4a7d-a137-7c4b593bbb8e', 
+    environmentId: '', 
+    folderPath: 'Tests', 
+    selectEnvironmentRadio: '-hci',
+     serverCredentialsId: 'c724dde9-7013-4a7d-a137-7c4b593bbb8e',
+    serverUrl: 'http://cwcc.bmc.com:2020'
+    */
 }
-
+/*
 stage("Retrieve Code Coverage Data")
 {
     steps{
