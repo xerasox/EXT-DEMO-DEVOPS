@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.15.1.v20230614-1440_85?>
+<!--BMC AMI DevX Total Test 20.15.1.v20230614-1440_85 Sep 1, 2023 4:51:31 PM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/XEXTCOB_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="XEXTCOB" encoding="1047" entrypoint="XEXTCOB#" id="Tests/Scenarios/XEXTCOB_Scenario.testscenario%23XEXTCOBCase1" target="XEXTCOB">
+      <testcase:description></testcase:description>
+      <testcase:ddio>MVSXYE.DEMOCI.LOAD</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1693558060000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/XEXTCOB.interface#Tests/Interfaces/XEXTCOB.interface</testcase:interface>
+      <testcase:input listructure="../Structures/XEXTCOB_PARMINFO.listructure#Tests/Structures/XEXTCOB_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/XEXTCOB_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="address" type="string">37B3E568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/XEXTCOB_XEXTSUBC_01.stub#Tests/Stubs/XEXTCOB_XEXTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/XEXTCOB_XEXTDATE_01.stub#Tests/Stubs/XEXTCOB_XEXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/XEXTCOB_RPTFILE_FILE_01.stub#Tests/Stubs/XEXTCOB_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/XEXTCOB_EMPFILE_FILE_01.stub#Tests/Stubs/XEXTCOB_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/XEXTCOB_DATETIME_01.stub#Tests/Stubs/XEXTCOB_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/XEXTCOB_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/XEXTCOB_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>XEXTCOB</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

@@ -1,0 +1,42 @@
+09:53:12.295 INFO      Total Test       ***************************************
+09:53:12.296 INFO      Total Test       ** Execution from Topaz with options **
+09:53:12.296 INFO      Total Test       ***************************************
+09:53:12.296 INFO      Total Test       Using repository: false
+09:53:12.296 INFO      Total Test       ***************************************
+09:53:12.296 INFO      Engine           Test Scenario execution started
+09:53:12.296 INFO      Engine           Using context settings:
+  Engine Version                : 20.15.1.v20230614-1440_85
+  Environment id                : 198.147.191.81:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 198.147.191.81
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 1047
+  Host user Id                  : MVSXYE
+  Use Repository Server         : false
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+09:53:12.296 INFO      Engine           Setting variables from context and context data extensions
+09:53:12.296 INFO      Engine             id: environmentId      value: 198.147.191.81:16196
+09:53:12.296 INFO      Engine             id: environmentType    value: BATCH
+09:53:12.296 INFO      Engine             id: userId             value: MVSXYE
+09:53:12.296 INFO      Engine             id: accountingInfo     value: 
+09:53:12.296 INFO      Engine             id: datasetHQL         value: 
+09:53:12.296 INFO      Unittest         Interpreting Unittest of module: XEXTCOB testscenario path: XEXTCOB_Scenario.testscenario
+09:53:12.507 INFO      Unittest         Using JCL skeleton to submit JCL
+09:53:18.494 INFO      CWCC             Sending Job execution request to Host 
+09:53:23.819 INFO      CWCC             Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job MVSXYEAA(J0427783) ended with return code: 0000
+  Job name       : MVSXYEAA
+  Job id         : J0427783
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+09:53:26.516 INFO      Unittest         Execution completed
+09:53:26.516 INFO      Engine           Test Scenario execution ended

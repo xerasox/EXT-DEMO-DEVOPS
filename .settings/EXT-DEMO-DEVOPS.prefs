@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+ispwEditing=TRUE
+ispwMappingLevel=WRK2
+ispwYamlConfigPath={project_loc}/ispwconfig.yml

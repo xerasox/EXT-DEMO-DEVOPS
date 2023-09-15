@@ -1,0 +1,479 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Tests/Stubs/XEXTCOB_XEXTSUBC_01.stub" stubtype="Program" target="XEXTSUBC" token="30000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Sep 1, 2023 4:50:19 PM</stub:description>
+  <stub:stubdata id="0" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="XEXTSUBC">
+    <stub:interface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/XEXTCOB_XEXTSUBC.interface#Tests/Interfaces/XEXTCOB_XEXTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37E10430</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          <properties:property name="address" type="string">37E10431</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0005530F</properties:property>
+          <properties:property name="address" type="string">37E10439</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#Tests/Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/XEXTCOB_XEXTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

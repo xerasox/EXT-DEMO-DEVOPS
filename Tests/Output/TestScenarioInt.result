@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>96400c9a-f7ce-4d3b-b58e-60922ff06cb2</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+      <Test>
+        <Job name="XEXTJCLC " haltExecution="false" description="Sales Report Creation" datasetName="MVSXYE.DEMOCD.JCL(XEXTJCLC)" jobLocation="DATASET" returnCodeVerify="value &lt; 8" resultReturnCode="0000">
+          <Content><![CDATA[//XXX DD DSN=]]></Content>
+        </Job>
+        <SpoolFile ddname="RPTFILE" stepname="STEP1" ashex="false" id="Spool_XEXTJCLC" description="Sales Report Retrieve"><![CDATA[RUN DATE  09/13/23       EMPLOYEE COMPENSATION REPORT                  PAGE   1
+ 
+ 
+                                HIRE  YRS OF
+  EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL
+ 
+  JOHN SMITH      NORTH   H   10/15/81   41     87.50     0.00      0.00    87.50
+  ROY GARDNER     NORTH   S   12/31/92   30   8756.00     0.00     55.30  8811.30
+  DAN PEARSON     NORTH   S   07/20/89   34   8756.00     0.00     55.30  8811.30
+  MICHAEL DAYTON  SOUTH   S   08/30/82   41   8756.00     0.00     55.30  8811.30
+  DENNIS WHITE    SOUTH   S   02/29/88   35   8756.00     0.00     55.30  8811.30
+  VALERIE OLSEN   EAST    S   05/01/94   29   8756.00     0.00     55.30  8811.30
+  LAURA MARTIN    EAST    S   06/14/83   40   8756.00     0.00     55.30  8811.30
+  MARCIA SULLIVAN EAST    H   04/05/93   30     87.50     0.00      0.00    87.50
+  JAMES MORRISON  EAST    H   09/13/91   32     87.50     0.00      0.00    87.50
+  THOMAS LONG     WEST    H   03/31/87   36     87.50     0.00      0.00    87.50
+  DONNA BROWN     WEST    S   11/11/81   41   8756.00     0.00     55.30  8811.30
+  SAMUEL ADDAMS   WEST    H   01/02/86   37     87.50     0.00      0.00    87.50
+  MARK JOHNSON    WEST    S   09/30/82   40   8756.00     0.00     55.30  8811.30
+ 
+     TOTAL                                                               70927.90]]></SpoolFile>
+        <Job name="XEXACDAT" haltExecution="false" description="System Date MM/JJ/AA" datasetName="MVSXYE.DEMOCD.JCL(XEXACDAT)" jobLocation="DATASET" returnCodeVerify="value &lt; 8" resultReturnCode="0000">
+          <Content><![CDATA[//XXX DD DSN=]]></Content>
+        </Job>
+        <SpoolFile ddname="SORTOUT" stepname="S1" ashex="false" id="Spool_XEXACDAT" description="System Date Retrieve"><![CDATA[09/13/23]]></SpoolFile>
+        <Verify name="Sales Report Date" haltExecution="false">
+          <Expected><![CDATA[09/13/23]]></Expected>
+          <Actual>09/13/23</Actual>
+          <Rules>
+            <Rule start="1" end="80" type="INCLUDE" in="actual" />
+          </Rules>
+        </Verify>
+      </Test>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="198.147.191.81:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false" userid="MVSXYE">
+      <platformruntime />
+      <ExtensionData />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false" path="TestScenarioInt.scenario">
+        <Test>
+          <Job name="XEXTJCLC " haltExecution="false" description="Sales Report Creation" datasetName="MVSXYE.DEMOCD.JCL(XEXTJCLC)" jobLocation="DATASET" returnCodeVerify="value &lt; 8">
+            <Content><![CDATA[//XXX DD DSN=]]></Content>
+          </Job>
+          <SpoolFile ddname="RPTFILE" stepname="STEP1" ashex="false" id="Spool_XEXTJCLC" description="Sales Report Retrieve" />
+          <Job name="XEXACDAT" haltExecution="false" description="System Date MM/JJ/AA" datasetName="MVSXYE.DEMOCD.JCL(XEXACDAT)" jobLocation="DATASET" returnCodeVerify="value &lt; 8">
+            <Content><![CDATA[//XXX DD DSN=]]></Content>
+          </Job>
+          <SpoolFile ddname="SORTOUT" stepname="S1" ashex="false" id="Spool_XEXACDAT" description="System Date Retrieve" />
+          <Verify name="Sales Report Date" haltExecution="false" description="Verification of Sales Report Date in the Header">
+            <Expected expression="Spool_XEXACDAT" />
+            <Actual expression="Spool_XEXTJCLC.substring(18, 26)" />
+            <Rules>
+              <Rule start="1" end="80" type="INCLUDE" in="actual" />
+            </Rules>
+          </Verify>
+        </Test>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20230913-18-10-10</Started>
+  <Ended>20230913-18-10-12</Ended>
+</XaUnitResult>

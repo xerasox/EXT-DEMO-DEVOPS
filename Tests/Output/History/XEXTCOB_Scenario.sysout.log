@@ -1,0 +1,15 @@
+
+***************** Output from TTTRUNNR *****************
+
+ CEE3740I The following messages pertain to the system default run-time options.                                         
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.                                      
+ CEE3768I The system default for the run-time option TEST could not be overridden.                                       
+ STTR043I Initializing simulation environment for: COBOL V4                                                              
+ STTR043I Initializing simulation environment for: COBOL V5                                                              
+ STTR011I totaltest zTargetRunner v170200 on 2023-09-15 03:53.19ꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸ                   
+ STTR012I Options set to EXIT(),STUBS(ON),ARGTYPE(ꞸꞸꞸꞸꞸꞸꞸꞸ)                                                              
+ STTR013I Processing test suite XEXTCOB_Scenario                                                                         
+ STTR014I Processing test scenario XEXTCOB_Scenario                                                                      
+ STTR028I Processing test case XEXTCOBCase1                                                                              
+ STTR006I Executing target XEXTCOB#ꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸ                                  
+ STTR008I All targets successfully executed                                                                              
