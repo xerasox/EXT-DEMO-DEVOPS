@@ -120,7 +120,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40D9D6E840C7C1D9C4D5C5D94040404040D5D6D9E3C8404040E2404040F1F261F3F161F9F2404040F3F0404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40D9D6E840C7C1D9C4D5C5D94040404040D5D6D9E3C8404040E2404040F1F261F3F161F9F2404040F3F0404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -131,7 +131,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40C4C1D540D7C5C1D9E2D6D54040404040D5D6D9E3C8404040E2404040F0F761F2F061F8F9404040F3F4404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40C4C1D540D7C5C1D9E2D6D54040404040D5D6D9E3C8404040E2404040F0F761F2F061F8F9404040F3F4404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -142,7 +142,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40D4C9C3C8C1C5D340C4C1E8E3D6D54040E2D6E4E3C8404040E2404040F0F861F3F061F8F2404040F4F1404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40D4C9C3C8C1C5D340C4C1E8E3D6D54040E2D6E4E3C8404040E2404040F0F861F3F061F8F2404040F4F1404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -153,7 +153,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40C4C5D5D5C9E240E6C8C9E3C540404040E2D6E4E3C8404040E2404040F0F261F2F961F8F8404040F3F5404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40C4C5D5D5C9E240E6C8C9E3C540404040E2D6E4E3C8404040E2404040F0F261F2F961F8F8404040F3F5404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -164,7 +164,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40E5C1D3C5D9C9C540D6D3E2C5D5404040C5C1E2E340404040E2404040F0F561F0F161F9F4404040F2F9404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40E5C1D3C5D9C9C540D6D3E2C5D5404040C5C1E2E340404040E2404040F0F561F0F161F9F4404040F2F9404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -175,7 +175,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40D3C1E4D9C140D4C1D9E3C9D540404040C5C1E2E340404040E2404040F0F661F1F461F8F3404040F4F0404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40D3C1E4D9C140D4C1D9E3C9D540404040C5C1E2E340404040E2404040F0F661F1F461F8F3404040F4F0404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -219,7 +219,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40C4D6D5D5C140C2D9D6E6D54040404040E6C5E2E340404040E2404040F1F161F1F161F8F1404040F4F1404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40C4D6D5D5C140C2D9D6E6D54040404040E6C5E2E340404040E2404040F1F161F1F161F8F1404040F4F1404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -241,7 +241,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40D4C1D9D240D1D6C8D5E2D6D540404040E6C5E2E340404040E2404040F0F961F3F061F8F2404040F4F0404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F9F1F14BF3F040</properties:property>
+          <properties:property name="value" type="string">40D4C1D9D240D1D6C8D5E2D6D540404040E6C5E2E340404040E2404040F0F961F3F061F8F2404040F4F0404040F8F7F5F64BF0F04040404040F04BF0F04040404040F5F54BF3F04040F8F8F1F14BF3F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -263,7 +263,7 @@
     <stub:output listructure="../Structures/XEXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure#Tests/Structures/XEXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/XEXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL" id="arg0.EMP_TOTAL_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40404040E3D6E3C1D3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F7F1F7F2F74BF9F040</properties:property>
+          <properties:property name="value" type="string">40404040E3D6E3C1D3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F7F0F9F2F74BF9F040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>

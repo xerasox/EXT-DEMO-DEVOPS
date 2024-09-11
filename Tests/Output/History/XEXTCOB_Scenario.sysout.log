@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.                                       
  STTR043I Initializing simulation environment for: COBOL V4                                                              
  STTR043I Initializing simulation environment for: COBOL V5                                                              
- STTR011I totaltest zTargetRunner v170200 on 2024-09-11 03:15.46ꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸ                   
+ STTR011I totaltest zTargetRunner v170200 on 2024-09-11 03:59.49ꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸꞸ                   
  STTR012I Options set to EXIT(),STUBS(ON),ARGTYPE(ꞸꞸꞸꞸꞸꞸꞸꞸ)                                                              
  STTR013I Processing test suite XEXTCOB_Scenario                                                                         
  STTR014I Processing test scenario XEXTCOB_Scenario                                                                      
