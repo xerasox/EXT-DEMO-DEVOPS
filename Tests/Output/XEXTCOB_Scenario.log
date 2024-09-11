@@ -1,11 +1,11 @@
-09:53:12.295 INFO      Total Test       ***************************************
-09:53:12.296 INFO      Total Test       ** Execution from Topaz with options **
-09:53:12.296 INFO      Total Test       ***************************************
-09:53:12.296 INFO      Total Test       Using repository: false
-09:53:12.296 INFO      Total Test       ***************************************
-09:53:12.296 INFO      Engine           Test Scenario execution started
-09:53:12.296 INFO      Engine           Using context settings:
-  Engine Version                : 20.15.1.v20230614-1440_85
+15:28:31.611 INFO      Total Test       ***************************************
+15:28:31.611 INFO      Total Test       ** Execution from Topaz with options **
+15:28:31.611 INFO      Total Test       ***************************************
+15:28:31.611 INFO      Total Test       Using repository: false
+15:28:31.611 INFO      Total Test       ***************************************
+15:28:31.613 INFO      Engine           Test Scenario execution started
+15:28:31.614 INFO      Engine           Using context settings:
+  Engine Version                : 23.1.1.v20230927-1906_130
   Environment id                : 198.147.191.81:16196
   Environment type              : Batch
   Operating system              : ZOS
@@ -21,22 +21,22 @@
   Use Repository Server         : false
   Account Information           : 
   Dataset High Level Qualifier  : 
-09:53:12.296 INFO      Engine           Setting variables from context and context data extensions
-09:53:12.296 INFO      Engine             id: environmentId      value: 198.147.191.81:16196
-09:53:12.296 INFO      Engine             id: environmentType    value: BATCH
-09:53:12.296 INFO      Engine             id: userId             value: MVSXYE
-09:53:12.296 INFO      Engine             id: accountingInfo     value: 
-09:53:12.296 INFO      Engine             id: datasetHQL         value: 
-09:53:12.296 INFO      Unittest         Interpreting Unittest of module: XEXTCOB testscenario path: XEXTCOB_Scenario.testscenario
-09:53:12.507 INFO      Unittest         Using JCL skeleton to submit JCL
-09:53:18.494 INFO      CWCC             Sending Job execution request to Host 
-09:53:23.819 INFO      CWCC             Job execution completed with status:
+15:28:31.614 INFO      Engine           Setting variables from context and context data extensions
+15:28:31.614 INFO      Engine             id: environmentId      value: 198.147.191.81:16196
+15:28:31.617 INFO      Engine             id: environmentType    value: BATCH
+15:28:31.617 INFO      Engine             id: userId             value: MVSXYE
+15:28:31.617 INFO      Engine             id: accountingInfo     value: 
+15:28:31.617 INFO      Engine             id: datasetHQL         value: 
+15:28:31.622 INFO      Unittest         Interpreting Unittest of module: XEXTCOB testscenario path: XEXTCOB_Scenario.testscenario
+15:28:32.106 INFO      Unittest         Using JCL skeleton to submit JCL
+15:28:39.167 INFO      cwcc             Sending Job execution request to Host 
+15:28:44.532 INFO      cwcc             Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job MVSXYEAA(J0427783) ended with return code: 0000
-  Job name       : MVSXYEAA
-  Job id         : J0427783
+  Job status msg : Job JOBNAME(J0442644) ended with return code: 0000
+  Job name       : JOBNAME
+  Job id         : J0442644
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-09:53:26.516 INFO      Unittest         Execution completed
-09:53:26.516 INFO      Engine           Test Scenario execution ended
+15:29:04.559 INFO      Unittest         Execution completed
+15:29:04.560 INFO      Engine           Test Scenario execution ended

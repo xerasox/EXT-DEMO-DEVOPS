@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="TestSuite" haltAtFailure="false">
+  <Description>test test suite</Description>
+  <XaUnits>
+    <Path>../Scenarios/XEXTCOB_Scenario.testscenario</Path>
+    <Path>../Scenarios/XEXTCOB_Date.scenario</Path>
+  </XaUnits>
+</XaSuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="198.147.191.81:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.GIT1.WRK2.LOAD</Value>
+    </Parameter>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/Runner.jcl</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false" path="TestSuite.suite">
+    <Test>
+      <Unittest testscenariopath="../Scenarios/XEXTCOB_Scenario.testscenario" moduleName="" />
+      <SubScript filePath="C:/Users/xeraso/git/EXT-DEMO-DEVOPS/Tests/Scenarios/XEXTCOB_Date.scenario" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

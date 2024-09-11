@@ -1,0 +1,42 @@
+16:19:27.764 INFO      Total Test       ***************************************
+16:19:27.764 INFO      Total Test       ** Execution from Topaz with options **
+16:19:27.764 INFO      Total Test       ***************************************
+16:19:27.765 INFO      Total Test       Using repository: false
+16:19:27.765 INFO      Total Test       ***************************************
+16:19:27.766 INFO      Engine           Test Scenario execution started
+16:19:27.768 INFO      Engine           Using context settings:
+  Engine Version                : 23.1.1.v20230927-1906_130
+  Environment id                : cwcc:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 1047
+  Host user Id                  : MVSXYE
+  Use Repository Server         : false
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+16:19:27.768 INFO      Engine           Setting variables from context and context data extensions
+16:19:27.768 INFO      Engine             id: environmentId      value: cwcc:16196
+16:19:27.770 INFO      Engine             id: environmentType    value: BATCH
+16:19:27.770 INFO      Engine             id: userId             value: MVSXYE
+16:19:27.770 INFO      Engine             id: accountingInfo     value: 
+16:19:27.770 INFO      Engine             id: datasetHQL         value: 
+16:19:27.772 INFO      Unittest         Interpreting Unittest of module: XEXTCOB testscenario path: XEXTCOB_Scenario2.testscenario
+16:19:28.366 INFO      Unittest         Using JCL skeleton to submit JCL
+16:19:34.535 INFO      cwcc             Sending Job execution request to Host 
+16:19:39.955 INFO      cwcc             Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job JOBNAME(J0438167) ended with return code: 0000
+  Job name       : JOBNAME
+  Job id         : J0438167
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+16:19:45.668 INFO      Unittest         Execution completed
+16:19:45.668 INFO      Engine           Test Scenario execution ended

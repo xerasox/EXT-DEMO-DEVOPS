@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 23.1.1.v20230927-1906_130?>
+<!--BMC AMI DevX Total Test 23.1.1.v20230927-1906_130 Oct 15, 2023, 5:50:06 PM-->
+<testsuites>
+  <testsuite name="XEXTCOB_Scenario.context" errors="0" tests="1" failures="1">
+    <testcase classname="XEXTCOB_Scenario.context" name="Unit Test: Test Case: XEXTCOBCase1 for program: XEXTCOB">
+      <failure>Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00011 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00012 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00013 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00014 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00015 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00016 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00020 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00022 Message: Check for EMP_DTL_TOTAL failed. Actual: 8811.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00024 Message: Check for EMP_GRAND_TOTAL failed. Actual: 70927.90 Expected: 70527.90</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="XEXTCOB_Date.scenario" errors="0" tests="4" failures="1">
+    <testcase classname="XEXTCOB_Date.scenario" name="Job Submit: XEXTJCLC " />
+    <testcase classname="XEXTCOB_Date.scenario" name="Job Submit: XEXACDAT" />
+    <testcase classname="XEXTCOB_Date.scenario" name="Verify: Sales Report Date" />
+    <testcase classname="XEXTCOB_Date.scenario" name="Verify: VerifyTotal">
+      <failure>Values are not equal. Actual:L                                                               70927.90 Expected:1000.00. Actual item path: . Expected item path:</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

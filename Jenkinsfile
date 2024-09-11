@@ -33,15 +33,18 @@ String ISPW_Release       = Parm_ISPW_Release       // The ISPW release ID used 
 // Directory for tests that are downloaded to the jenkins workspace
 String TTT_Project        = "Tests"  // The name of your TTT project
 
+// Jenkins Folder
+String Jenkins_Folder = "GUIDE_SHARE_COBOL"
+
 // Total Test JCL and Scenario/Testsuite used in CI process
 String TTT_TestPackage    = "XEXTCOB_Scenario" // The filename name of your TTT Scenario
 String TTT_PackageType    = ".testscenario"    // The suffix of your TTT Scenario
-string TTT_PackageSonar   = "${TTT_Project}_${TTT_TestPackage}.sonar"  // The filename created by TTT for Sonar input   
+string TTT_PackageSonar   = "${Jenkins_Folder}_${TTT_TestPackage}.sonar"  // The filename created by TTT for Sonar input   
 String TTT_Jcl            = "Runner.jcl"       // The name of the JCL file
 String CC_repository      = "MVSXYE.DEMOCI.COVERAGE" // The DSN of your code coverage repository
 
 // SonarQube ID used for both project key and project name
-String SQ_Project         = "PFHMKS0-Pipeline" // Your SonarQube project name
+String SQ_Project         = "EXT-DEMO-DEVOPS" // Your SonarQube project name
 
 // XL Release values
 String XLR_Template       = "FTSDEMO/Release from Jenkins (FTSDEMO)" // XL Release template 
@@ -52,49 +55,6 @@ println "owner: " + ISPW_Owner
 println "release: " + ISPW_Release
 
 
-
-/*
-stage("Generate Programs")
-{
-    node 
-    {
-        // Define variables to be used to call ISPW
-        def ces
-        def container
-        ces                 = "${Jenkins_CES}"
-        String ispwRequestBdy = /assignmentId=${ISPW_Container}
-           level=${ISPW_Dev_Level} 
-           runtimeConfiguration=${ISPW_RuntimeConfig} 
-           events.name=Completed events.body=Generated
-           events.httpHeaders=Jenkins-Crumb:no-crumb
-           events.credentials=admin:library/
-
-        // Call ISPW Operation
-        ispwOperation connectionId: '91bae501-8b4d-4155-909d-2ad5aa9f3131', credentialsId: ces, ispwAction: 'GenerateTasksInAssignment', ispwRequestBody: ispwRequestBdy
-        }
-}
-
-stage("Promote Code")
-{
-    node
-    {
-        // Define variables to be used to call ISPW
-        def ces
-        def container
-        ces                 = "${Jenkins_CES}"
-        String ispwRequestBdy = /assignmentId=${ISPW_Container}
-           level=${ISPW_Dev_Level} 
-           runtimeConfiguration=${ISPW_RuntimeConfig} 
-           events.name=Completed events.body=Promoted
-           events.httpHeaders=Jenkins-Crumb:no-crumb
-           events.credentials=admin:library/
-
-        // Call ISPW Operation
-        ispwOperation connectionId: '91bae501-8b4d-4155-909d-2ad5aa9f3131', credentialsId: ces, ispwAction: 'PromoteAssignment', ispwRequestBody: ispwRequestBdy
-        }
-}
-
-*/
 pipeline {
     agent any
 
@@ -184,11 +144,12 @@ stage("Run Total Tests")
     serverUrl: 'http://cwcc.bmc.com:2020'
     */
 }
-/*
+
 stage("Retrieve Code Coverage Data")
 {
     steps{
         // Retrieve code coverage data
+        script{
         string sources="${ISPW_Application}\\MF_Source"
         def ccproperties   = 'cc.sources=' + sources + '\rcc.repos=' + CC_repository + '\rcc.system=' + TTT_Project + '\rcc.test=' + BUILD_DISPLAY_NAME + '\rcc.ddio.overrides='
         step([$class: 'CodeCoverageBuilder',
@@ -196,12 +157,14 @@ stage("Retrieve Code Coverage Data")
             analysisPropertiesPath: '',
             connectionId: 'de2ad7c3-e924-4dc2-84d5-d0c3afd3e756',
             credentialsId: Jenkins_Id])
+        }
     }
 }
 
 stage("SonarQube Analysis") 
 {
     steps{
+        script{
         // Requires SonarQube Scanner 2.8+
         def scannerHome = tool 'scanner';
         withSonarQubeEnv('localhost') 
@@ -214,8 +177,10 @@ stage("SonarQube Analysis")
             def SQ_Cobol_conf           = " -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub -Dsonar.cobol.copy.suffixes=cpy -Dsonar.sourceEncoding=UTF-8"
             bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf
         }
+        }
     }
 }
+/*
 stage("Check Quality Gate")
 {
     steps{ 

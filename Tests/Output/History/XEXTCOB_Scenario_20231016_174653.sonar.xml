@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 23.1.1.v20230927-1906_130?>
+<!--BMC AMI DevX Total Test 23.1.1.v20230927-1906_130 Oct 16, 2023, 5:46:53 PM-->
+<testExecutions version="1">
+  <file path="C:\Users\xeraso\git\EXT-DEMO-DEVOPS\Tests\Scenarios\XEXTCOB_Scenario.scenario">
+    <testCase name="Unit Test: Test Case: XEXTCOBCase1 for program: XEXTCOB" duration="0">
+      <failure message="Unit Test: Test Case: XEXTCOBCase1 for program: XEXTCOB">Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00011 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00012 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00013 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00014 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00015 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00016 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00020 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00022 Message: Check for EMP_DTL_TOTAL failed. Actual: 8711.30 Expected: 8761.30
+Failure    Stub: XEXTCOB_RPTFILE_FILE_01 Record: 00024 Message: Check for EMP_GRAND_TOTAL failed. Actual: 70127.90 Expected: 70527.90</failure>
+    </testCase>
+  </file>
+</testExecutions>

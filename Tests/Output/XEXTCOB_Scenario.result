@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <ExecutionId>94ed5baa-5efa-40b2-a8b5-2984a7b147a7</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+      <Test>
+        <Unittest testscenariopath="XEXTCOB_Scenario.testscenario" moduleName="XEXTCOB" />
+      </Test>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="198.147.191.81:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false" userid="MVSXYE">
+      <platformruntime />
+      <ExtensionData>
+        <Parameter key="unittest.loadlibraries">
+          <Value>SALESSUP.GIT1.WRK2.LOAD</Value>
+        </Parameter>
+        <Parameter key="unittest.staticjcl">
+          <Value>../JCL/Runner.jcl</Value>
+        </Parameter>
+      </ExtensionData>
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="XEXTCOB" caseInsensitiveCompare="false" path="XEXTCOB_Scenario.context">
+        <Test>
+          <Unittest testscenariopath="XEXTCOB_Scenario.testscenario" moduleName="XEXTCOB" />
+        </Test>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20231015-17-49-49</Started>
+  <Ended>20231015-17-50-03</Ended>
+</XaUnitResult>

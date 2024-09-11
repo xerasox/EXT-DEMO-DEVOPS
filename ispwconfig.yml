@@ -2,7 +2,7 @@
 ispwApplication:
   application: GIT1
   encryptionProtocol: None
-  host: cwcc
+  host: CWCC
   hostCodePage: '1047'
   pathMappings:
   - path: \ACTI

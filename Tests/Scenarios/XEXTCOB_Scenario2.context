@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="cwcc:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.GIT1.WRK2.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="XEXTCOB" caseInsensitiveCompare="false" path="XEXTCOB_Scenario2.context">
+    <Test>
+      <Unittest testscenariopath="XEXTCOB_Scenario2.testscenario" moduleName="XEXTCOB" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

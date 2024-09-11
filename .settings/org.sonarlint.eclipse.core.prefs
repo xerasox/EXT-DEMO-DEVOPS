@@ -1,6 +1,6 @@
 autoEnabled=true
 eclipse.preferences.version=1
-idePrefixKey=
+idePrefixKey=COB
 projectKey=adrianproj
 serverId=aus-bdc-sonarqube-cwcc.bmc.com
-sqPrefixKey=
+sqPrefixKey=HSAAJR0.SONAR.SOURCE

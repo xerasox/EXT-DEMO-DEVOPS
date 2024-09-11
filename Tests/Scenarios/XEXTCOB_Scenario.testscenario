@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.15.1.v20230614-1440_85?>
-<!--BMC AMI DevX Total Test 20.15.1.v20230614-1440_85 Sep 1, 2023 4:51:31 PM-->
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/XEXTCOB_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
