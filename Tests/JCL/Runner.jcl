@@ -28,7 +28,7 @@
 //* The skeleton can be modified as needed                                      
 //*                                                                             
 //STEPLIB DD DISP=SHR,DSN=SYS2.CW.CXR17B.SLCXLOAD                               
-//        DD DISP=SHR,DSN=SALESSUP.GIT1.FT1.LOAD                                
+//        DD DISP=SHR,DSN=SALESSUP.ACT1.DEV1.LOAD                                
 //*                                                                             
 //* The following lines will initialize storage to zeroes to avoid              
 //* uninitialized storage assertion miscompares.                                
