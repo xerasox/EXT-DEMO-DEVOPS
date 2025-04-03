@@ -1,6 +1,6 @@
 !!com.compuware.ispw.wzzms.models.IspwRoot
 ispwApplication:
-  application: GIT1
+  application: ACT1
   encryptionProtocol: None
   host: CWCC
   hostCodePage: '1047'
@@ -631,5 +631,5 @@ ispwApplication:
       ispwType: ZIP
   port: 16196
   readWriteTimeout: 90
-  stream: GITDEMO
-  subAppl: GIT1
+  stream: FTSDEMO
+  subAppl: ACT1

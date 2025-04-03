@@ -17,8 +17,8 @@
       </Rules>
     </Verify>
     <Verify name="VerifyTotal" haltExecution="false">
-      <Expected>1000.00</Expected>
-      <Actual expression="Spool_XEXTJCLC.substring(1298, 1400)" />
+      <Expected>85504.90</Expected>
+      <Actual expression="Spool_XEXTJCLC.substring(1280, 1288)" />
     </Verify>
   </Test>
 </XaUnit>

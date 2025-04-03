@@ -89,7 +89,7 @@
 ********  STORES THE NAME OF EACH REGION
 ********
        01  REGION-NAME-TABLE.
-           05  FILLER            PIC X(5)    VALUE 'NORTH'.
+           05  FILLER            PIC X(5)    VALUE 'NORD'.
            05  FILLER            PIC X(5)    VALUE 'SOUTH'.
            05  FILLER            PIC X(5)    VALUE 'EAST '.
            05  FILLER            PIC X(5)    VALUE 'WEST '.
