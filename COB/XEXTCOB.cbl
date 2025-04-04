@@ -13,7 +13,7 @@
       *              - REGIONAL SALES REPORT                           *
       *                                                                *
       *  RUN JCL     - STORED IN XPEDITER/TSO SAMPLIB (XEXTJCLC)       *
-      *                                                                *
+      *  test                                                          *
       ******************************************************************
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
